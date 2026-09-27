@@ -1,0 +1,97 @@
+{
+  "package": "FACEBOOK_RASPADOR_PRODUCAO_44_21_34",
+  "version": "44.21.34",
+  "purpose": "USO_DIRETO_SEM_FIELD_DRIVER",
+  "manifestV3": true,
+  "runtimeFiles": 14,
+  "nodeChecks": {
+    "content.js": "PASS",
+    "exact_relation_collector_442127.js": "PASS",
+    "main_world_hook.js": "PASS",
+    "post_comment_bridge.js": "PASS",
+    "post_comment_main_hook.js": "PASS",
+    "post_reaction_bridge.js": "PASS",
+    "post_reaction_main_hook.js": "PASS",
+    "post_scraper_module.js": "PASS",
+    "reel_evidence_bridge.js": "PASS",
+    "reel_evidence_main_hook.js": "PASS",
+    "service_worker.js": "PASS",
+    "unified_controller.js": "PASS",
+    "unified_preflight.js": "PASS"
+  },
+  "capabilities": {
+    "relations_collection": true,
+    "friends_following_followers": true,
+    "post_collection": true,
+    "post_interactions_toggle": true,
+    "comments_and_replies": true,
+    "reaction_profiles": true,
+    "export_formats": true,
+    "meta_bio_code_present": true,
+    "avatar_current_run_path": true
+  },
+  "exactCollectorSha256": "50cbc96e6c2b8559349ff86db688c3dcf9132eca940ff30f63079bf2efa46a25",
+  "driversIncluded": false,
+  "watchersIncluded": false,
+  "devtoolsRequired": false,
+  "runtimeHashes": {
+    "content.js": {
+      "bytes": 505896,
+      "sha256": "0f75ab9210ff9f6b895eb8b6fcc5fde6d8e58e6d838edfbbc8cd2be52ac3891d"
+    },
+    "exact_relation_collector_442127.js": {
+      "bytes": 31764,
+      "sha256": "50cbc96e6c2b8559349ff86db688c3dcf9132eca940ff30f63079bf2efa46a25"
+    },
+    "main_world_hook.js": {
+      "bytes": 24650,
+      "sha256": "6c7aae53cdb3681fd7768763aea88e95a56261363cbcdc9602e06029aa216308"
+    },
+    "manifest.json": {
+      "bytes": 1660,
+      "sha256": "2013b442e4adfdce6c8ca7dff130876ca59b95e5ae6072449f6604353a6c9749"
+    },
+    "post_comment_bridge.js": {
+      "bytes": 1797,
+      "sha256": "12dc95f1c5d0e5a24654c0762475801a8d4b881bc17b726ba90beadb63071216"
+    },
+    "post_comment_main_hook.js": {
+      "bytes": 15367,
+      "sha256": "acd9196c77999e6f4f8e866ae67603135a9cf4a38a8e1931113db932a66fca71"
+    },
+    "post_reaction_bridge.js": {
+      "bytes": 7068,
+      "sha256": "995937b2beb49b5843c9d30f5e4100f6c16101307034c4e58d09ed519331edc3"
+    },
+    "post_reaction_main_hook.js": {
+      "bytes": 14394,
+      "sha256": "55c1c21df25b147db05b51d40fb3d76bef89181a3a366e8d770469c5b7781af1"
+    },
+    "post_scraper_module.js": {
+      "bytes": 484240,
+      "sha256": "3dd890d7be5106740f66351d2fa18013d1d2aede635046ad1d56b623ca9c9de8"
+    },
+    "reel_evidence_bridge.js": {
+      "bytes": 1535,
+      "sha256": "0eb6bbd491513686312b9034dc639ce583e2cdc50fbd4d13dbcbb00794e7430d"
+    },
+    "reel_evidence_main_hook.js": {
+      "bytes": 14780,
+      "sha256": "0a6952596180c2d7310146be33103f9bf43ab4baeb721cea01eb53faf69845a8"
+    },
+    "service_worker.js": {
+      "bytes": 19388,
+      "sha256": "3d8cd21537b4b62cf99c11da93debcc481ba922eae681d167b331d82bb1a6b20"
+    },
+    "unified_controller.js": {
+      "bytes": 65006,
+      "sha256": "d0f158d3adfcb414bfe28ab85e56a416f7a7ab0b7a727904e6a92e217f952bd3"
+    },
+    "unified_preflight.js": {
+      "bytes": 498,
+      "sha256": "d8fea21933b660614a985a36ce458b4b9915cd4bd4b5687f7a84b3a8042cd529"
+    }
+  },
+  "localAudit": "PASS",
+  "fieldCertificationNote": "Meta/Bio field closeout completo não foi comprovado pelo Driver R5; o certificado recebido falhou antes do runtime por ausência de ACK do driver."
+}

@@ -1,0 +1,93 @@
+FACEBOOK RASPADOR - PRODUCAO 44.21.34
+=====================================
+
+OBJETIVO
+--------
+Ferramenta para uso direto no Facebook, contendo:
+- Amigos;
+- Seguindo;
+- Seguidores;
+- postagens abertas;
+- comentarios e respostas;
+- reacoes/interacoes (Curtir, Amei, Forca, Haha, Uau, Triste e Grr);
+- exportacao pelos formatos disponibilizados no painel.
+
+INSTALAR
+--------
+1. Extraia este ZIP para uma pasta fixa.
+2. Execute:
+   00_INSTALAR_EXTENSAO.bat
+3. Em chrome://extensions:
+   - ative Modo do desenvolvedor;
+   - clique Carregar sem compactacao;
+   - selecione EXATAMENTE:
+     01_EXTENSAO_FACEBOOK_RASPADOR
+4. Use a sua aba do Chrome ja logada no Facebook.
+5. Pressione F5 nessa aba.
+
+NAO INSTALE:
+- o ZIP;
+- a pasta raiz do pacote;
+- drivers de teste antigos;
+- RC5/RC6 duplicadas ao mesmo tempo.
+
+USAR - AMIGOS / SEGUINDO / SEGUIDORES
+--------------------------------------
+1. Abra o perfil no Facebook.
+2. Abra a area Amigos.
+3. Materialize manualmente a subcolecao desejada:
+   Amigos, Seguindo ou Seguidores.
+4. No painel da extensao, selecione a mesma relacao.
+5. Clique:
+   Coletar relacoes selecionadas
+6. Aguarde o termino.
+7. Clique:
+   Baixar formatos...
+
+USAR - POSTAGEM
+---------------
+1. Abra diretamente uma postagem, foto ou reel reconhecido pelo painel.
+2. Para coletar tambem reacoes/perfis que interagiram, marque:
+   Raspar interacoes
+3. Clique:
+   Postagem aberta
+4. Aguarde.
+5. Clique:
+   Baixar formatos...
+
+POSTAGEM - DADOS SUPORTADOS PELO RUNTIME
+----------------------------------------
+A ferramenta possui rotinas para:
+- dados centrais da postagem;
+- comentarios;
+- respostas;
+- midias;
+- contagens/evidencias;
+- perfis das reacoes que o Facebook materializar para a sessao;
+- agrupamento por tipo de reacao.
+
+LIMITACAO IMPORTANTE
+--------------------
+A ferramenta registra somente os dados que o Facebook efetivamente disponibiliza
+a sessao autenticada. Se o Facebook ocultar identidades, comentarios, reacoes,
+bio ou outras informacoes, a ferramenta nao deve inventar dados ausentes.
+
+BIO / ENRIQUECIMENTO
+--------------------
+O runtime 44.21.34 inclui a correcao da lane Meta/Bio.
+Use o campo exportado quando a informacao for publicamente observavel e vinculada
+ao perfil correto.
+
+ATUALIZAR A EXTENSAO
+--------------------
+Se uma versao antiga estiver carregada:
+1. remova/desative a antiga em chrome://extensions;
+2. carregue somente 01_EXTENSAO_FACEBOOK_RASPADOR;
+3. volte ao Facebook e pressione F5.
+
+VALIDACAO OPCIONAL
+------------------
+Se quiser verificar os arquivos antes de instalar:
+00_VALIDAR_PRODUCAO.bat
+
+Este BAT e apenas auditor. Nao e necessario para usar a ferramenta.
